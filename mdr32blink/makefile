@@ -16,7 +16,7 @@ OBJ_C:=$(SRC:%.c=%.o)
 OBJ:=$(OBJ_C:%.S=%.o)
 
 INC=\
-    -ISrc/Inc \
+    -Iinc \
     -I$(LIB)/Config \
     -I$(LIB)/CMSIS/CM3/CoreSupport \
     -I$(LIB)/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc \
